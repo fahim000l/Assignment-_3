@@ -18,16 +18,16 @@
         <nav class="navbar navbar-expand-lg mx-lg-5 px-lg-5">
             <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand fw-bold" href="#">Pro Edu</a>
-                <div class="d-md-none">
+                <div>
                     <button class="navbar-toggler fw-bold" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 400px;">
+                <div class="collapse navbar-collapse ps-5 ms-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-0 mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item ms-5">
                             <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item ms-5">
@@ -45,17 +45,12 @@
                         <li class="nav-item ms-5">
                             <a class="nav-link fw-bold">Register</a>
                         </li>
+                        <li class="nav-item ms-5">
+                            <form class="d-flex" role="search">
+                                <button type="button" class="btn btn-outline-primary fw-bold">Register</button>
+                            </form>
+                        </li>
                     </ul>
-                </div>
-                <form class="d-flex d-lg-block d-md-block d-none" role="search">
-                    <button type="button" class="btn btn-outline-primary fw-bold">Register</button>
-                </form>
-                <div class="d-none d-md-block">
-                    <button class="navbar-toggler fw-bold" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
 
             </div>
@@ -478,7 +473,7 @@
                 <div class="accordion w-100" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button me-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Difference between flexbox and grid
                             </button>
@@ -497,7 +492,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed me-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Bootstrap Vs Tailwind
                             </button>
@@ -531,7 +526,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed me-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 What is css box-model
                             </button>
@@ -560,7 +555,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed me-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 What is semantic tag
                             </button>
@@ -576,7 +571,36 @@
                 </div>
             </div>
         </section>
+
+        <section class="d-lg-flex d-md-none d-none flex-column justify-content-center pt-lg-5 pt-3">
+            <div class="d-flex justify-content-center">
+                <h1>Trusted by over 800+ companies</h1>
+            </div>
+            <div class="d-flex justify-content-evenly mt-5">
+                <img src="images/company/company-1.png" alt="">
+                <img src="images/company/company-2.png" alt="">
+                <img src="images/company/company-3.png" alt="">
+                <img src="images/company/company-4.png" alt="">
+                <img src="images/company/company-5.png" alt="">
+                <img src="images/company/company-6.png" alt="">
+            </div>
+        </section>
     </main>
+
+    <footer class="bg-dark d-flex flex-column justify-content-center align-items-center p-5 mt-5 text-center w-100">
+        <h1 class="text-white">Pro Edu</h1>
+        <p class="text-white">Office 41, Zawaya Buildin, Ghala Muscat, </p>
+        <p class="text-white">Sultanate of Oman</p>
+        <p class="text-white">Privacy Ploicy | Terms of use</p>
+        <div class="d-flex justify-content-evenly w-50 pt-3">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fs-1"></i></a>
+            <a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-square-twitter fs-1"></i></a>
+            <a
+                href="https://www.linkedin.com/learning/subscription/topics?src=go-pa&trk=sem-ga_campid=11663861468_asid=114329329380_crid=481098641236_kw=linkedin%20training%20cost_d=c_tid=kwd-322356467934_n=s_mt=e_geo=9076878_slid=&mcid=6841864363146670240&cid=&gclid=EAIaIQobChMInpe4vZWd-QIVfZlmAh0JmQefEAAYASAAEgLX_vD_BwE&gclsrc=aw.ds"><i
+                    class="fa-brands fa-linkedin fs-1"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fs-1"></i></a>
+        </div>
+    </footer>
     <!-- js_link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
 "></script>
